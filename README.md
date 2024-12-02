@@ -24,13 +24,6 @@ This project demonstrates the use of **Principal Component Analysis (PCA)** to a
    - Calculates the **PCA reconstruction error** to quantify how much information is lost when using a limited number of components.
    - The reconstruction error is computed as the normalized Frobenius norm of the difference between the original and reconstructed data.
 
-## Folder Structure
-
-- `data/`: Contains the MNIST dataset (automatically downloaded by the script).
-- `src/`: Code implementation files:
-  - `eigen_decomposition.py`: Performs eigendecomposition on the covariance matrix.
-  - `variance_analysis.py`: Plots cumulative variance explained by principal components.
-  - `reconstruction.py`: Reconstructs images using selected principal components and computes reconstruction error.
 
 ## Usage Example
 
